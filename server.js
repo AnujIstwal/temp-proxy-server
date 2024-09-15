@@ -4,7 +4,7 @@ import cors from "cors";
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: "https://ajistwal-api-playground.netlify.app" }));
 
 const SERP_API_KEY =
     "ee08ff16c7d98b81a64b7354ef36f7bf682e2c70843d8a936650a4d3fe11c77f";
