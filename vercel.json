@@ -15,7 +15,10 @@
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Authorization"
       },
       "dest": "/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
     }
   ]
 }
-
