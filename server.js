@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 
 app.use(cors({
-    origin: "https://ajistwal-api-playground.netlify.app", // Your frontend Netlify URL
+    origin: "https://ajistwal-api-playground.netlify.app" // Your frontend Netlify URL
 }));
 
 const SERP_API_KEY =
